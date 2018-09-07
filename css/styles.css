@@ -1,0 +1,38 @@
+@media screen and (min-width: 480px) and (max-width: 760px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (min-width: 760px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+img{
+  width: 100%;
+  height:100%;
+}
+nav{
+   max-width: 950px;
+   margin: 0 auto;
+   padding: 11px 0;
+   margin-right: 0%;
+}
+nav>ul>li>a {
+padding: 17px;
+margin-right: 0;
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+
+}
+nav>ul>li>a:hover {
+box-shadow:green;
+background:yellow;
+color:black;
+display:inline-block;
+}
+li{
+  list-style-type:none;
+}
